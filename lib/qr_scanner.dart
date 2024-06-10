@@ -45,9 +45,9 @@ class _QRScannerUIState extends State<QRScannerUI> {
                   key: qrKey,
                   onQRViewCreated: _onQRViewCreated,
                   overlay: QrScannerOverlayShape(
-                    borderColor: Colors.black,
-                    borderRadius: 10,
-                    borderLength: 30,
+                    borderColor: Color.fromARGB(255, 30, 30, 29),
+                    borderRadius: 30,
+                    borderLength: 60,
                     borderWidth: 10,
                     cutOutSize: MediaQuery.of(context).size.width * 0.8,
                     overlayColor: Color(0xFFF1EFE5), // Match the background color
